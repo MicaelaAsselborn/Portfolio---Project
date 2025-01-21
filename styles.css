@@ -6,7 +6,6 @@
     --cream: #eef1bdff;
 }
 *{
-    /* border: 1px solid black; */
     scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
@@ -190,6 +189,9 @@ footer a:hover{
 /* MEDIA SECTION */
 
 @media screen and (max-width: 1020px){
+    body{
+        width: 100%;
+    }
     .project-tile p{
         font-size: 25px;
         height: 80px;
@@ -199,11 +201,11 @@ footer a:hover{
         justify-content: center;
         padding: 5px;
     }
-    #welcome-section img{
-        transform: scale(3);
-    }
     #welcome-section div{
-        margin-bottom: 150px;
+        margin-bottom: 30px;
+    }
+    #welcome-section div:hover{
+        transform: scale(1.3);
     }
 }
 @media screen and (max-width: 450px){
